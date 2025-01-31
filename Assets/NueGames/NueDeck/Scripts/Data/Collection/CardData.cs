@@ -18,6 +18,10 @@ namespace NueGames.NueDeck.Scripts.Data.Collection
         [SerializeField] private Sprite cardSprite;
         [SerializeField] private RarityType rarity;
         
+        [SerializeField] public int followersChange;
+        [SerializeField] public int moneyChange;
+        [SerializeField] public int curiosityChange;
+
         [Header("Action Settings")]
         [SerializeField] private bool usableWithoutTarget;
         [SerializeField] private bool exhaustAfterPlay;

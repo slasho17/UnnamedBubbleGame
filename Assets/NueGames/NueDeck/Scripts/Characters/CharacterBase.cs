@@ -11,6 +11,10 @@ namespace NueGames.NueDeck.Scripts.Characters
         [SerializeField] private CharacterType characterType;
         [SerializeField] private Transform textSpawnRoot;
 
+        public int curiosity;
+        public int followers;
+        public int money;
+
         #region Cache
         public CharacterStats CharacterStats { get; protected set; }
         public CharacterType CharacterType => characterType;
